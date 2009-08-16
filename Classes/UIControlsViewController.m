@@ -13,6 +13,9 @@
 @synthesize nameField;
 @synthesize numberField;
 @synthesize sliderLabel;
+@synthesize leftSwitch;
+@synthesize rightSwitch;
+@synthesize switchView;
 
 - (IBAction) textFieldDoneEditing: (id) sender {
   [sender resignFirstResponder];
@@ -32,6 +35,24 @@
   [newText release];
 }
 
+- (IBAction) switchChanged: (id) sender {
+  UISwitch *whichSwitch = (UISwitch *) sender;
+  BOOL setting = [whichSwitch isOn];
+  
+  [leftSwitch  setOn: setting animated: YES];
+  [rightSwitch setOn: setting animated: YES];
+}
+
+- (IBAction) toggleShowHide: (id) sender {
+  UISegmentedControl *segmentedControl = (UISegmentedControl *) sender;
+  NSInteger segment = segmentedControl.selectedSegmentIndex;
+  
+  if (segment == kShowSegementIndex) {
+    [switchView setHidden: NO];
+  } else {
+    [switchView setHidden: YES];
+  }
+}
 
 
 /*
