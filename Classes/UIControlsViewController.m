@@ -10,6 +10,28 @@
 
 @implementation UIControlsViewController
 
+@synthesize nameField;
+@synthesize numberField;
+@synthesize sliderLabel;
+
+- (IBAction) textFieldDoneEditing: (id) sender {
+  [sender resignFirstResponder];
+}
+
+- (IBAction) backgroundClick: (id) sender {
+  [nameField   resignFirstResponder];
+  [numberField resignFirstResponder];
+}
+
+- (IBAction) sliderChanged: (id) sender {
+  UISlider *slider = (UISlider *) sender;
+  int progress = (int) (slider.value + 0.5f);
+  NSString *newText = [[NSString alloc] initWithFormat:@"%d", progress];
+  
+  sliderLabel.text = newText;
+  [newText release];
+}
+
 
 
 /*
