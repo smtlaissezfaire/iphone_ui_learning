@@ -10,7 +10,7 @@
 
 #define kShowSegementIndex 0
 
-@interface UIControlsViewController : UIViewController {
+@interface UIControlsViewController : UIViewController <UIActionSheetDelegate> {
   IBOutlet UITextField *nameField;
   IBOutlet UITextField *numberField;
   IBOutlet UILabel     *sliderLabel;
@@ -31,6 +31,7 @@
 - (IBAction) sliderChanged:        (id) sender;
 - (IBAction) switchChanged:        (id) sender;
 - (IBAction) toggleShowHide:       (id) sender;
+- (IBAction) doSomething:          (id) sender;
 
 @end
 
