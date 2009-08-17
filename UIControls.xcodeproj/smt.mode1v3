@@ -197,48 +197,7 @@
 	<key>Notifications</key>
 	<array/>
 	<key>OpenEditors</key>
-	<array>
-		<dict>
-			<key>Content</key>
-			<dict>
-				<key>PBXProjectModuleGUID</key>
-				<string>DFD4AE261038D76E000BBB14</string>
-				<key>PBXProjectModuleLabel</key>
-				<string>UIControlsViewController.h</string>
-				<key>PBXSplitModuleInNavigatorKey</key>
-				<dict>
-					<key>Split0</key>
-					<dict>
-						<key>PBXProjectModuleGUID</key>
-						<string>DFD4AE271038D76E000BBB14</string>
-						<key>PBXProjectModuleLabel</key>
-						<string>UIControlsViewController.h</string>
-						<key>_historyCapacity</key>
-						<integer>0</integer>
-						<key>bookmark</key>
-						<string>DFD4AE2E1038D818000BBB14</string>
-						<key>history</key>
-						<array>
-							<string>DFD4AE181038D6A4000BBB14</string>
-						</array>
-					</dict>
-					<key>SplitCount</key>
-					<string>1</string>
-				</dict>
-				<key>StatusBarVisibility</key>
-				<true/>
-			</dict>
-			<key>Geometry</key>
-			<dict>
-				<key>Frame</key>
-				<string>{{0, 20}, {750, 461}}</string>
-				<key>PBXModuleWindowStatusBarHidden2</key>
-				<false/>
-				<key>RubberWindowFrame</key>
-				<string>15 371 750 502 0 0 1440 878 </string>
-			</dict>
-		</dict>
-	</array>
+	<array/>
 	<key>PerspectiveWidths</key>
 	<array>
 		<integer>-1</integer>
@@ -317,7 +276,7 @@
 							<key>PBXSmartGroupTreeModuleOutlineStateSelectionKey</key>
 							<array>
 								<array>
-									<integer>5</integer>
+									<integer>4</integer>
 									<integer>1</integer>
 									<integer>0</integer>
 								</array>
@@ -360,7 +319,7 @@
 								<key>PBXProjectModuleGUID</key>
 								<string>1CE0B20306471E060097A5F4</string>
 								<key>PBXProjectModuleLabel</key>
-								<string>UIControlsViewController.m</string>
+								<string>UIControlsViewController.h</string>
 								<key>PBXSplitModuleInNavigatorKey</key>
 								<dict>
 									<key>Split0</key>
@@ -368,11 +327,11 @@
 										<key>PBXProjectModuleGUID</key>
 										<string>1CE0B20406471E060097A5F4</string>
 										<key>PBXProjectModuleLabel</key>
-										<string>UIControlsViewController.m</string>
+										<string>UIControlsViewController.h</string>
 										<key>_historyCapacity</key>
 										<integer>0</integer>
 										<key>bookmark</key>
-										<string>DFD4AE2D1038D818000BBB14</string>
+										<string>DFD4AE541038DEC8000BBB14</string>
 										<key>history</key>
 										<array>
 											<string>DFBAFD34102DD9270046011B</string>
@@ -381,8 +340,8 @@
 											<string>DFBAFD37102DD9270046011B</string>
 											<string>DF0C16651038A6B20002EE98</string>
 											<string>DFD4AE1E1038D76E000BBB14</string>
-											<string>DFD4AE2A1038D818000BBB14</string>
-											<string>DFD4AE2B1038D818000BBB14</string>
+											<string>DFD4AE501038DEC8000BBB14</string>
+											<string>DFD4AE511038DEC8000BBB14</string>
 										</array>
 										<key>prevStack</key>
 										<array>
@@ -417,6 +376,13 @@
 											<string>DFD4AE231038D76E000BBB14</string>
 											<string>DFD4AE241038D76E000BBB14</string>
 											<string>DFD4AE2C1038D818000BBB14</string>
+											<string>DFD4AE431038DE55000BBB14</string>
+											<string>DFD4AE441038DE55000BBB14</string>
+											<string>DFD4AE451038DE55000BBB14</string>
+											<string>DFD4AE461038DE55000BBB14</string>
+											<string>DFD4AE471038DE55000BBB14</string>
+											<string>DFD4AE521038DEC8000BBB14</string>
+											<string>DFD4AE531038DEC8000BBB14</string>
 										</array>
 									</dict>
 									<key>SplitCount</key>
@@ -615,7 +581,6 @@
 		<string>DFD4ADC01038C673000BBB14</string>
 		<string>1CD10A99069EF8BA00B06720</string>
 		<string>1C78EAAD065D492600B07095</string>
-		<string>DFD4AE261038D76E000BBB14</string>
 		<string>DFBAF780102028BF0050E62A</string>
 		<string>/Users/smt/src/git/iphone/UIControls/UIControls.xcodeproj</string>
 	</array>
@@ -648,14 +613,14 @@
 							<key>GeometryConfiguration</key>
 							<dict>
 								<key>Frame</key>
-								<string>{{0, 0}, {500, 218}}</string>
+								<string>{{0, 0}, {1440, 536}}</string>
 								<key>RubberWindowFrame</key>
-								<string>347 276 500 500 0 0 1440 878 </string>
+								<string>0 60 1440 818 0 0 1440 878 </string>
 							</dict>
 							<key>Module</key>
 							<string>PBXNavigatorGroup</string>
 							<key>Proportion</key>
-							<string>218pt</string>
+							<string>536pt</string>
 						</dict>
 						<dict>
 							<key>BecomeActive</key>
@@ -674,9 +639,9 @@
 							<key>GeometryConfiguration</key>
 							<dict>
 								<key>Frame</key>
-								<string>{{0, 223}, {500, 236}}</string>
+								<string>{{0, 541}, {1440, 236}}</string>
 								<key>RubberWindowFrame</key>
-								<string>347 276 500 500 0 0 1440 878 </string>
+								<string>0 60 1440 818 0 0 1440 878 </string>
 							</dict>
 							<key>Module</key>
 							<string>PBXBuildResultsModule</string>
@@ -685,7 +650,7 @@
 						</dict>
 					</array>
 					<key>Proportion</key>
-					<string>459pt</string>
+					<string>777pt</string>
 				</dict>
 			</array>
 			<key>Name</key>
@@ -706,11 +671,11 @@
 			<key>ToolbarConfiguration</key>
 			<string>xcode.toolbar.config.buildV3</string>
 			<key>WindowString</key>
-			<string>347 276 500 500 0 0 1440 878 </string>
+			<string>0 60 1440 818 0 0 1440 878 </string>
 			<key>WindowToolGUID</key>
 			<string>DFBAF780102028BF0050E62A</string>
 			<key>WindowToolIsVisible</key>
-			<true/>
+			<false/>
 		</dict>
 		<dict>
 			<key>FirstTimeWindowDisplayed</key>

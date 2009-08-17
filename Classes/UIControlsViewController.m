@@ -16,6 +16,7 @@
 @synthesize leftSwitch;
 @synthesize rightSwitch;
 @synthesize switchView;
+@synthesize doSomethingButton;
 
 - (IBAction) textFieldDoneEditing: (id) sender {
   [sender resignFirstResponder];
@@ -110,12 +111,17 @@
 */
 
 
-/*
-// Implement viewDidLoad to do additional setup after loading the view, typically from a nib.
-- (void)viewDidLoad {
-    [super viewDidLoad];
+- (void) viewDidLoad {
+  UIImage *buttonImageNormal = [UIImage imageNamed: @"whiteButton.png"];
+  UIImage *stretchableButtonImageNormal =  [buttonImageNormal stretchableImageWithLeftCapWidth: 12 topCapHeight: 0];
+  [doSomethingButton setBackgroundImage: stretchableButtonImageNormal
+                     forState: UIControlStateNormal];
+  
+  UIImage *buttonImagePressed = [UIImage imageNamed: @"blueButton.png"];
+  UIImage *stretchableButtonImagePressed = [buttonImagePressed stretchableImageWithLeftCapWidth:12 topCapHeight: 0];
+  [doSomethingButton setBackgroundImage: stretchableButtonImagePressed
+                     forState: UIControlStateHighlighted];
 }
-*/
 
 
 /*
